@@ -41,7 +41,7 @@ export default function ItemList(props) {
           <span id="itemlist-rotate">{props.text}</span>
         </div>
         <div id="itemlist-wrapper">
-          <div id="itemlist-container">
+          <div className="itemlist-container" id={props.name}>
             {itemArray}
           </div>
         </div>
