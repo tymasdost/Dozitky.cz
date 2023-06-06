@@ -1,1 +1,1 @@
-Dožitky
+Dozitky nejlepsi cesta k zivotu
