@@ -1,0 +1,38 @@
+.slide-down {
+  animation: slideDown .7s ease;
+  animation-fill-mode: forwards;
+  animation-delay: .2s;
+  opacity: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#Slogans {
+
+  margin: 4% 0%;
+  margin-bottom: 0%;
+  rotate: 6deg;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+#sloganCenter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

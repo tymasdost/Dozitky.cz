@@ -1,0 +1,74 @@
+#itemlist {
+    width: 80vw;
+    margin: 7vh auto;
+    display: flex;
+    height: 40vh;
+    z-index: 100;
+    user-select: none;
+}
+
+#itemlist-header {
+    background-color: black;
+    height: 40vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    border-right: 1vh double white;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    color: white;
+    overflow: hidden;
+    transition: 1s;
+    position: absolute;
+    z-index: 10;
+    
+}
+
+#itemlist:hover #itemlist-header {
+    width: 15vw;
+    justify-content: center;
+    align-items: center;
+}
+#itemlist:hover #itemlist-header #itemlist-rotate{
+    transform: rotate(90deg);
+    font-size: 2.4vh;
+}
+
+#itemlist-rotate {
+    
+    text-transform: uppercase;
+    font-size: 3vh;
+    letter-spacing: 1vh;
+    font-weight: 600;
+    text-shadow: 1vh 1vh .5vh rgba(93, 93, 93, 0.685);
+}
+#itemlist-wrapper {
+    background-color: black;
+    height: 100%;
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-left: 15vw;
+}
+#itemlist-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: none !important;
+    overflow-x:scroll;
+}
+
+#itemlist-container::-webkit-scrollbar {
+    width: 12px;
+}
+
+#itemlist-container::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0);
+}
+
+#itemlist-container::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+}

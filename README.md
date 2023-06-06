@@ -1,2 +1,1 @@
-# dozitky.cz
-dozitky.cz
+Dožitky

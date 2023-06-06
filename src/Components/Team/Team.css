@@ -1,0 +1,100 @@
+#teamWrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 10vh;
+    align-items: center;
+
+}
+
+#teamItem {
+    background-size: cover;
+    width: 25%;
+    min-width: 300px;
+    height: 40vh;
+    background-color: rgb(56, 56, 56);
+    margin:2vh 4vh;
+    color: rgb(0, 0, 0);
+    transition: .5s;
+}
+#teamBottom {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    justify-content: space-around;
+
+}
+#teamInfo {
+    padding-left: 1vw;
+    border-bottom: .1vh solid black;
+    opacity: 0;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    transition: .3s ease-in-out;
+    width: 100%;
+    transform: translateX(0%);
+}
+
+#teamItem:hover #teamInfo {
+    opacity: 1;
+    transform: translateX(100%);
+}
+#teamItem:hover {
+    filter: brightness(.3);
+    transform: translateX(-50%);
+}
+#teamName {
+    font-size: 4vh;
+    margin: 3vh 0vh;   
+}
+#teamFunctions {
+    color: #414141;
+    font-size: 2.3vh;
+    margin-bottom: 1vh;
+}
+#teamText {
+    color: #555555;
+    margin-bottom: 1vh;
+    font-size: 1.5vh;
+}
+
+.teamJarda {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj9yefr3SuZD4DdLz8xrSrTIBEL1Qtg2dBzw&usqp=CAU');
+}
+
+.teamJindra {
+    background-image: url('https://media.discordapp.net/attachments/1105779457358315530/1113849484577865859/image.png?width=601&height=676');
+}
+
+.teamSima {
+    background-image: url('https://media.discordapp.net/attachments/1105779457358315530/1113851917873987796/2x_amhgz_400x400.jpg');
+}
+#teamHeader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    #teamBottom {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    #teamItem {
+
+        min-width: 40%;
+        height: fit-content;
+    }
+    #teamWrapper {
+        width: 100%;
+    }
+}

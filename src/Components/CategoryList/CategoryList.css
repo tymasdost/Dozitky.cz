@@ -1,0 +1,35 @@
+#catListWrapper {
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    transition: .6s ease-in-out;
+    margin-top: 8vh;
+}
+#catListScroll {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+}
+#catListScrollCont {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.catListLeft {
+    transform: translateX(-50%);
+}
+
+.catListRight {
+    transform: translateX(50%);
+}
+
+
+.catListLeft:hover {
+    transform: translateX(0%); 
+}
+.catListRight:hover {
+    transform: translateX(0%);
+}

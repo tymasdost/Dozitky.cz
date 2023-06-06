@@ -1,0 +1,28 @@
+#tosHeader {
+    font-size: 6vh;
+    font-weight: 700;
+    text-shadow: .2vw .2vh rgb(138, 138, 138);
+}
+#faqText {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    padding: 10vh 15vw;
+}
+#faqCont {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8vh;
+}
+
+#faqQuest {
+    font-size: 4vh;
+    text-transform: uppercase;
+
+}
+#faqAns {
+    margin-top: 1vh;
+    font-size: 2vh;
+    margin-left: 2vw;
+}
