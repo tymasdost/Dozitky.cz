@@ -1,0 +1,2 @@
+# dozitky.cz
+dozitky.cz
